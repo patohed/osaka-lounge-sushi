@@ -10,7 +10,9 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "security-check": "npm audit && npm outdated"
+    "security-check": "npm audit && npm outdated",
+    "export": "next build && next export",
+    "deploy": "npm run build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
