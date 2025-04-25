@@ -2,6 +2,8 @@
 
 Una aplicación web moderna para un restaurante japonés, construida con Next.js y Material-UI.
 
+Visita el sitio: https://patohed.github.io/osaka-lounge-sushi/
+
 ## 🌟 Características
 
 - **Menú Interactivo**: Visualización elegante de platos de sushi y especialidades japonesas
